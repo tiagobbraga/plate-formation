@@ -13,10 +13,6 @@
   "attributes": {
     "name": {
       "type": "string"
-    },
-    "associated": {
-      "via": "type_associated",
-      "model": "associated"
     }
   }
 }
