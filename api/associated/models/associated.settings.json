@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "associateds",
+  "info": {
+    "name": "Associated",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "quota_number": {
+      "type": "string",
+      "required": false,
+      "unique": true
+    },
+    "quota_time": {
+      "type": "integer"
+    },
+    "type_associated": {
+      "model": "type-associated"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email",
+      "required": false,
+      "unique": true
+    },
+    "recommendation": {
+      "type": "string"
+    },
+    "able": {
+      "type": "boolean",
+      "required": false
+    },
+    "pendencies": {
+      "type": "richtext"
+    }
+  }
+}
