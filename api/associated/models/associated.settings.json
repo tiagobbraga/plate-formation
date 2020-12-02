@@ -12,7 +12,8 @@
   },
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "quota_number": {
       "type": "string",
@@ -26,19 +27,22 @@
       "model": "type-associated"
     },
     "phone": {
-      "type": "string"
+      "type": "string",
+      "private": true
     },
     "email": {
       "type": "email",
       "required": false,
-      "unique": true
+      "unique": true,
+      "private": true
     },
     "recommendation": {
       "type": "string"
     },
     "able": {
       "type": "boolean",
-      "required": false
+      "required": true,
+      "default": true
     },
     "pendencies": {
       "type": "richtext"
