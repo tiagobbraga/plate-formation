@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "info",
+  "info": {
+    "name": "info"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

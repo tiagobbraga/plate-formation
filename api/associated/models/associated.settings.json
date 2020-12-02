@@ -24,7 +24,9 @@
       "type": "integer"
     },
     "type_associated": {
-      "model": "type-associated"
+      "columnName": "Situação atual",
+      "model": "type-associated",
+      "via": "associated"
     },
     "phone": {
       "type": "string",
